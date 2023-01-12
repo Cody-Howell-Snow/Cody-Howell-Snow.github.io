@@ -13,7 +13,7 @@ These allow you to create better:
 
 [Here's a link to the Markdown lookup!](https://markdownlivepreview.com/)
 
-```module Dlatch(input d, clk, output Q, Qn);
+``` module Dlatch(input d, clk, output Q, Qn);
   nand(w1, d, clk);
   nand(w2, ~d, clk);
   nand(Q, Qn, w1);
